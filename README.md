@@ -2,7 +2,7 @@ Signal Safety clang-tidy plugin
 ===============================
 
 **This uses attribute plugin functionality that does not exist in
-upstream clang**
+upstream clang but needs [aw-attr-plugins](https://github.com/wanders/llvm-project/commits/aw-attr-plugins/) branch**
 
 This clang tidy plugin checks that any function that has the
 "signal_safe" attribute only calls functions defined in
